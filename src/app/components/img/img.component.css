@@ -1,0 +1,22 @@
+img {
+  width: 340px;
+  height: 340px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* tablets */
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
+  img {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+/* web */
+@media screen and (min-width: 64em) {
+  img {
+    width: 360px;
+    height: 360px;
+  }
+}
